@@ -1,32 +1,88 @@
-p {
+* {
   margin: 0;
+  padding: 0;
 }
 
 html {
+  height: 100%;
   font-size: 100%;
 }
 
 body {
   background-color: black;
-  color: white;
   font-family: 'Nunito', sans-serif;
-  max-width: 60ch;
+  max-width: 40ch;
   margin-inline: auto;
-  padding-bottom: 35rem;
+}
+
+#title {
+  background-image: url(./assets/10.jpg);
 }
 
 h1 {
+  color: white;
   font-size: 8ch;
+  text-wrap: balance;
+  padding: 10px;
 }
 
 p {
+  color: white;
   font-size: 2rem;
-  margin-bottom: 1rem;
+  text-shadow: 1px 1px 1px black;
+  padding: 10px;
+}
+
+#stanza1 {
+  background-image: url(./assets/1.jpg);
+}
+
+#stanza2 {
+  background-image: url(./assets/2.jpg);
+}
+
+#stanza3 {
+  background-image: url(./assets/3.jpg);
+}
+
+#stanza4 {
+  background-image: url(./assets/4.jpg);
+}
+
+#stanza5 {
+  background-image: url(./assets/5.jpg);
+}
+
+#stanza6 {
+  background-image: url(./assets/6.jpg);
+}
+
+#stanza7 {
+  background-image: url(./assets/7.jpg);
+}
+
+#stanza8 {
+  background-image: url(./assets/8.jpg);
+}
+
+#stanza9 {
+  background-image: url(./assets/9.jpg);
+}
+
+.image {
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.black {
+  color: black;
+  text-shadow: 1px 1px 1px white;
 }
 
 .love {
-  margin-top: 10rem;
   font-size: 8ch;
   text-align: center;
+  text-shadow: none;
 }
-
